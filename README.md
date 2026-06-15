@@ -17,7 +17,7 @@
 
 - **AI-Powered Chatbot Mentor** (Groq + Llama-3.3-70B)
   - Context-aware conversations using prediction results
-  - Personalized academic and wellbeing guidance
+  - Personalized academic and well-being guidance
 
 - **AI-Generated Daily Planner**
   - Automatically creates personalized daily schedule based on performance & stress levels
@@ -96,7 +96,7 @@ cd aimhess
 pip install flask mysql-connector-python joblib numpy pandas python-dotenv groq tensorflow reportlab
 ```
 
-### 3. Setup Environment Variables (`.env`)
+### 3. Set up Environment Variables (`.env`)
 ```env
 FLASK_SECRET_KEY=your-super-secret-key
 GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxx
@@ -114,7 +114,7 @@ GRANT ALL PRIVILEGES ON aimhes_db.* TO 'aimhes_user'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
-Run the SQL script to create `users` table (you can add it later).
+Run the SQL script to create the `users` table (you can add it later).
 
 ### 5. Run the Application
 ```bash
